@@ -178,6 +178,11 @@ const Home = () => {
             toast.error('User with this email already exists!', { position: "top-center" });
             return;
         }
+        else{
+                        toast.error('User with this email already exists!', { position: "top-center" });
+
+
+        }
 
         // Add new user data to localStorage
         localStorage.setItem("useryoutube", JSON.stringify([...data, inpval]));
