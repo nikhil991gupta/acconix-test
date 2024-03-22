@@ -1,0 +1,11 @@
+/* Header.css */
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        justify-content: center;
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center;
+    }
+}
